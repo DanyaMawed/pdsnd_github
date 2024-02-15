@@ -3,10 +3,13 @@ import pandas as pd
 #import numpy as np
 #import datetime as dati
 
+
+# The list of teh data files 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+# cheching input value process 
 def check (data, value=[]):
     """ Check the value of the input, is it one of the values in the list or not?"""
     if data not in value:
@@ -14,7 +17,7 @@ def check (data, value=[]):
 
 def check_loop(list=[],message=''):
 
-    """loop as long the input is not a valid value [contained in the list], once it valid, stop it """
+    """loop as long as the input is not a valid value [contained in the list], once it valid, stop it """
 
     user_input=''
     while user_input not in list:  
