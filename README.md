@@ -18,6 +18,10 @@ new_york_city.csv
 washington.csv
 all the generated information in this project is based on the above data files.
 
+# Libraries
+time
+pandas
+
 ### Credits
 #### helped me with manipulating date values: 
 https://stackoverflow.com/questions/69227966/datetime-pandas-sum
