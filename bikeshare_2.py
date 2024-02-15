@@ -36,7 +36,7 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
     print ('Please note that in this project we are only working with three data sets')
-    
+
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
         cities=['chicago', 'new york city', 'washington']
@@ -152,7 +152,7 @@ def station_stats(df):
 
     # display most frequent combination of start station and end station trip
     df['start_end_station']='Start: '+ df['Start Station'] + ', End: ' + df['End Station']
-    start_end = df['start_end_station'].value_counts().index.tolist()[0]
+    start_end = df['start_end_station'].value_counts().idxmax()
     print('The most frequent combination of start station and end station trip is {} \n\n'.format(start_end))
 
 
