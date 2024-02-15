@@ -1,17 +1,33 @@
 >**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
-### Date created
-Include the date you created this project and README file.
+## Bikeshare Data Project
 
-### Project Title
-Replace the Project Title
+### Date created
+This Project code was done on teh 9th of Feb.
+This readme file was created on the 15th of Feb.
 
 ### Description
-Describe what your project is about and what it does
+We have the data of the users travels from 3 different cities.
+This is an interactive project which display statisical data which was created
+from the raw data based on the user request
 
 ### Files used
-Include the files used
+to run this code you need the below data files:
+chicago.csv
+new_york_city.csv
+washington.csv
+all the generated information in this project is based on the above data files.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+#### helped me with manipulating date values: 
+https://stackoverflow.com/questions/69227966/datetime-pandas-sum
+https://docs.python.org/3/library/datetime.html
+
+
+#### extract values as list:
+https://stackoverflow.com/questions/35523635/extract-values-in-pandas-value-counts
+
+
+#### gave me the Idea of the check function:
+https://stackoverflow.com/questions/25854380/enforce-arguments-to-a-specific-list-of-values
 
