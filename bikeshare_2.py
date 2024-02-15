@@ -1,7 +1,5 @@
 import time
 import pandas as pd
-#import numpy as np
-#import datetime as dati
 
 
 # The list of teh data files 
